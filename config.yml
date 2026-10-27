@@ -1,0 +1,10 @@
+data:
+  train_path: data/train.csv
+  test_path: data/test.csv
+
+model:
+  criterion: entropy
+  max_depth: 10
+  use_smote: false
+  threshold: 0.2
+  store_path: models/model.pkl

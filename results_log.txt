@@ -1,0 +1,15 @@
+Run 1: DecisionTree, entropy, no imbalance fix
+  Accuracy 0.8744 | ROC AUC 0.719 | Recall(1) 0.45 | Precision(1) 0.48
+
+Run 2: DecisionTree, entropy, imbalance fix using SMOT
+  Accuracy 0.8693 | ROC AUC 0.7189 | Recall(1) 0.48 | Precision(1) 0.46
+
+Run 3: DecisionTree, entropy, imbalance fix using SMOT, max_depth=5
+  Accuracy 0.7881 | ROC AUC 0.7839 | Recall(1) 0.45 | Precision(1) 0.27
+
+Run 4: DecisionTree, entropy, imbalance fix using SMOT, max_depth=10
+  Accuracy 0.8161 | ROC AUC 0.7944 | Recall(1) 0.31 | Precision(1) 0.27
+
+Run 5: DecisionTree, entropy, no SMOT, max_depth=10
+  Accuracy 0.8806 | ROC AUC 0.8078 | Recall(1) 0 | Precision(1) 0.36
+
