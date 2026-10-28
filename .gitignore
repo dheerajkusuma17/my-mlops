@@ -4,4 +4,4 @@ mlruns/
 models/model.pkl
 *.html
 .pyprojectx/
-/data
+
